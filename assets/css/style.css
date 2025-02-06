@@ -93,6 +93,10 @@ p{
     display: flex;
     align-items: center;
 }
+
+main {
+    min-height: calc(100vh - 80px);
+}
  
  #menu li {
     display: inline;
