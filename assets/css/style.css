@@ -133,6 +133,7 @@ main {
 }
 
 .img_profile{
+    border-radius: 50%;
     max-width: 100%;
     height: auto;
     width: 200px; /* Definindo uma largura máxima */
@@ -177,8 +178,8 @@ footer {
 }
 
 .social_icon {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     filter: brightness(0) 
             saturate(100%) 
             invert(100%) 
@@ -206,6 +207,7 @@ footer {
     flex-direction: row;
     gap: 2rem;
     margin-bottom: 2rem;
+    padding: 4rem;
  }
 
 form {
@@ -317,8 +319,8 @@ form button:hover {
     }
 
     .img_profile {
-        width: 150px; /* Ajuste da largura da imagem */
-        object-fit: cover; /* Garante que a imagem seja bem ajustada */
+        width: 150px;
+        height: 150px;
     }
 
     #descricao {
@@ -342,8 +344,8 @@ form button:hover {
     }
 
     .social_icon {
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
     }
 
     #mapa {
@@ -389,8 +391,8 @@ form button:hover {
     }
 
     .img_profile {
-        width: 100px; /* Ajuste da largura da imagem */
-        object-fit: cover;
+        width: 100px;
+        height: 100px;
     }
 
     #descricao {
@@ -409,8 +411,8 @@ form button:hover {
     }
 
     .social_icon {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
     }
 
     /* Ajustes no video */
